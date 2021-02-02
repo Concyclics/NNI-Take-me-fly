@@ -29,7 +29,7 @@ from model import *
 logger = logging.getLogger('auto-fe-examples')
 
 if __name__ == '__main__':
-    file_name = '~/Downloads/train.csv'
+    file_name = 'train.csv'
     target_name = 'Survived'
     id_index = 'PassengerId'
 
