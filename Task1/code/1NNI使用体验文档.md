@@ -77,7 +77,7 @@ nnictl create --config nni/examples/trials/mnist-tfv2/config.yml
 
 NNI在从github拉取下来的文件中，在文件nni/examples/trials/中通过观察可以看到其实不止一种运行测试，如图所示：
 
-![image-20210205233225617](1NNI 使用体验文档.assets/image-20210205233225617.png)
+![image-20210205233225617](1NNI使用体验文档.assets/image-20210205233225617.png)
 
 其中以mnist开头的都是都是能够以不同的平台运行的样例，如本次NNI安装教程的话就会遇到很多文件、模块不存在的报错，其中mnist-tfv2和mnist-tfv1就是一个很好的例子，因此可以在NNI安装教程中描述再详细些，这样也能够避免安装时出现不必要的错误，进而折腾很久。
 
